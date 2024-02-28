@@ -1,0 +1,215 @@
+h1{
+    height: 100px;
+    margin: 0;
+    bottom: 50px;
+    position: relative;
+    background-color: #d0f0c0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-color: rgb(210,188, 222);
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+.options a{
+    font-family: "Josefin Sans", sans-serif;
+    background-color: azure;
+    border-style: solid;
+    border-color: #2f295f;
+    border-radius: 6px;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    display: inline;
+    margin-right: 70px;
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+#icon{
+    bottom: 200px;
+    position: relative;
+    height: 77px;
+    width: 77px;
+    left: 680px;
+}
+
+#icon:hover{
+    cursor: pointer;
+}
+
+main {
+    margin: 20px;
+}
+
+.recipe {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.recipe h2 {
+    color: #333;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.recipe p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.title{
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    bottom: 120px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.a{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 2rem 2rem;
+}
+
+.a1{
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.a2{
+    font-size: 35px;
+    font-family: "Cabin", sans-serif;
+    display: inline-block;
+    text-align: left;
+    margin-right: 80px;
+    position: relative;
+    left: 104px;
+}
+
+#piz{
+    height: 300px;
+    width: 300px;
+}
+
+#cart{
+    position: relative;
+    top: 40px;
+}
+
+.buttonstyle{
+    margin: 10px;
+    background-color: rgb(244, 231, 231);
+    margin-top: 20px;
+    left: 585px;
+    padding: 5px;
+    font-size: 20px;  
+    border: none;
+}
+
+.buttonstyle:hover{
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  input{
+    opacity: 0;
+    pointer-events: none;
+    touch-action: none;
+  }
+
+.dropdown {
+    display: none;
+    top: 12;
+    bottom: 30px;
+    position: absolute;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 5px;
+    right: 0;
+    height: 100px;
+    width: 110px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+
+  input:checked ~ .dropdown{
+    display: flex;
+  }
+
+.drop{
+    text-decoration: none;
+}
+
+.dropdown a:visited{
+    color: cadetblue;
+}
+
+.muffin{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    bottom: 80px;
+    left: 585px;
+}
+
+.butt{
+    background: transparent;
+    border: none;
+    
+}
+
+.seicon{
+    position: relative;
+    width: 78px;
+    height: 75px;
+    left: 1000px;
+    bottom: 110px;
+}
+
+.searchbutt{
+    touch-action: auto;
+    pointer-events: all;
+    opacity: 100;
+    height: 50px;
+    position: relative;
+    left: 1020px;
+    bottom: 135px;
+    padding-right: 50px;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: azure;
+    border-color: #2f295f;
+    padding: 2px;
+}
+.seicon:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(210,188, 222);
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.title img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.title{
+display: inline-flex;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    font-size: 90px;
+    bottom: 20px;
+    
+}
+.heading{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px ;
+}
+.ing{
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+}
+.ingdetail{
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+}
